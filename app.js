@@ -3,7 +3,7 @@ const app=express()
 const cors=require("cors")
 
 app.use(cors(
-   { origin:[''] ,  
+   { origin:['https://bookmark-bliss.netlify.app'] ,  
   methods: ['GET, POST, PUT, DELETE'], 
   credentials: true,  }
 ));  
